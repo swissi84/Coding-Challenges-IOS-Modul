@@ -12,6 +12,6 @@ struct Coding_ChallangeApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }
+           }
     }
 }
