@@ -8,13 +8,18 @@
 import SwiftUI
 struct ContentView: View {
     var body: some View {
-        VStack{
-            
-            BookView()
-            
-            BookView()
-            BookView()
-            BookView()
+        VStack(alignment: .center) {
+            Text("Books Buy")
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+            ScrollView{
+                VStack{
+                    BookView(book: booksList [0])
+                    BookView(book: booksList [1])
+                    BookView(book: booksList [2])
+                    BookView(book: booksList [3])
+                   
+                }
+            }
         }
     }
 }

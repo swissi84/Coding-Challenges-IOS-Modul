@@ -12,7 +12,7 @@
 		65685E9D2C7F0C31007E6246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65685E9C2C7F0C31007E6246 /* Assets.xcassets */; };
 		65685EA02C7F0C31007E6246 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65685E9F2C7F0C31007E6246 /* Preview Assets.xcassets */; };
 		65685EC32C7F0D66007E6246 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685EC22C7F0D66007E6246 /* BookView.swift */; };
-		65685EC52C7F1B83007E6246 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685EC42C7F1B83007E6246 /* Main.swift */; };
+		65685EC72C7F21F2007E6246 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685EC62C7F21F2007E6246 /* Books.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 		65685EA52C7F0C31007E6246 /* Coding ChallangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding ChallangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65685EAF2C7F0C31007E6246 /* Coding ChallangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding ChallangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65685EC22C7F0D66007E6246 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
-		65685EC42C7F1B83007E6246 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		65685EC62C7F21F2007E6246 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			children = (
 				65685E982C7F0C2F007E6246 /* Coding_ChallangeApp.swift */,
 				65685E9A2C7F0C2F007E6246 /* ContentView.swift */,
-				65685EC42C7F1B83007E6246 /* Main.swift */,
+				65685EC62C7F21F2007E6246 /* Books.swift */,
 				65685EC22C7F0D66007E6246 /* BookView.swift */,
 				65685E9C2C7F0C31007E6246 /* Assets.xcassets */,
 				65685E9E2C7F0C31007E6246 /* Preview Content */,
@@ -238,9 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65685EC72C7F21F2007E6246 /* Books.swift in Sources */,
 				65685EC32C7F0D66007E6246 /* BookView.swift in Sources */,
 				65685E9B2C7F0C2F007E6246 /* ContentView.swift in Sources */,
-				65685EC52C7F1B83007E6246 /* Main.swift in Sources */,
 				65685E992C7F0C2F007E6246 /* Coding_ChallangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

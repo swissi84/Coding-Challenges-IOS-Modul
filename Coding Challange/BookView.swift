@@ -8,33 +8,32 @@
 import SwiftUI
 
 struct BookView: View {
+    let book : Book
+    
     var body: some View {
-       
-            HStack {
-                ZStack(alignment: .leading) {
-                    Image("test")
-                        .resizable()
-                        .frame(width: 80, height: 100)
-                    HStack{
-                        Divider()
-                            .padding(40)
+        HStack {
+            ZStack(alignment: .leading) {
+                Image("\(book.image)")
+                    .resizable()
+                    .frame(width: 80, height: 100)
+                HStack{
+                    Divider()
+                        .padding(40)
                     VStack(alignment: .leading) {
                         Spacer()
-                        Text("Der Lustig Guckender Mönch")
+                        Text("\(book.name)")
                             .font(.headline)
-                        Divider()
-                        
                         HStack {
-                            Text("von Andy")
-                            Divider()
+                            Text("Autor: \(book.Autor)")
                             Spacer()
-                            Text("5 Sterne")
+                            Text("\(book.Bewertung) Sterne")
                                 .padding()
                         }
                     }
                 }
             }
         }
+        
         .background(Color.white)
         .fixedSize(horizontal: false, vertical: true)
         .background()
@@ -43,9 +42,9 @@ struct BookView: View {
         .padding()
         
     }
-        
+    
 }
 
 #Preview {
-    BookView()
+    BookView(book: booksList[0])
 }
