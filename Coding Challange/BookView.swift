@@ -39,8 +39,8 @@ struct BookView: View {
         .background()
         .cornerRadius(12)
         .shadow(radius: 5)
-        .padding()
-        
+        .frame(width: 360)
+        //.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
     }
     
 }
