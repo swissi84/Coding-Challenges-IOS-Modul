@@ -7,6 +7,8 @@
 
 import SwiftUI
 struct ContentView: View {
+    @State private var task: String = "Work"
+
     var body: some View {
         VStack() {
             Text("Books")
@@ -22,17 +24,22 @@ struct ContentView: View {
             ScrollView{
                 VStack{
                     BookView(book: booksList [0])
-                        //.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                    //.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                     BookView(book: booksList [1])
-                       // .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                    // .border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                     BookView(book: booksList [2])
                     BookView(book: booksList [3])
-                   
+                    
                 }
+            }
+            VStack{
+                TaskPicker(task: $task)
             }
         }
     }
 }
 
-
+#Preview {
+    ContentView()
+}
 
