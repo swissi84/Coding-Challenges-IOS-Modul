@@ -16,6 +16,8 @@
 		65685EC32C7F0D66007E6246 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685EC22C7F0D66007E6246 /* BookView.swift */; };
 		65685EC72C7F21F2007E6246 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685EC62C7F21F2007E6246 /* Books.swift */; };
 		656A4D0B2C805EC000FD3345 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656A4D0A2C805EC000FD3345 /* Text.swift */; };
+		656AE4682C8996DE00F38679 /* Slider,Steper,SecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AE4672C8996DE00F38679 /* Slider,Steper,SecureField.swift */; };
+		656AE46A2C899C9700F38679 /* CustomStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AE4692C899C9700F38679 /* CustomStepperView.swift */; };
 		656BFA7D2C85A08A000B6184 /* Coding 2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BFA7C2C85A08A000B6184 /* Coding 2.1.swift */; };
 		656BFA802C85B5B7000B6184 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BFA7F2C85B5B7000B6184 /* ContentView2.swift */; };
 		656E14822C86F49A0055CB7A /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E14812C86F49A0055CB7A /* ContactView.swift */; };
@@ -53,6 +55,8 @@
 		65685EC22C7F0D66007E6246 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		65685EC62C7F21F2007E6246 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		656A4D0A2C805EC000FD3345 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		656AE4672C8996DE00F38679 /* Slider,Steper,SecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Slider,Steper,SecureField.swift"; sourceTree = "<group>"; };
+		656AE4692C899C9700F38679 /* CustomStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperView.swift; sourceTree = "<group>"; };
 		656BFA7C2C85A08A000B6184 /* Coding 2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coding 2.1.swift"; sourceTree = "<group>"; };
 		656BFA7F2C85B5B7000B6184 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		656E14812C86F49A0055CB7A /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
@@ -85,13 +89,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		655D25502C884B8100999E75 /* W2 T4 */ = {
+		655D25502C884B8100999E75 /* W2 T3 */ = {
 			isa = PBXGroup;
 			children = (
 				655D25512C884B9800999E75 /* TaskPicker.swift */,
 				655D25532C88550C00999E75 /* UnitPicker.swift */,
 			);
-			path = "W2 T4";
+			path = "W2 T3";
 			sourceTree = "<group>";
 		};
 		65685E8C2C7F0C2F007E6246 = {
@@ -115,7 +119,8 @@
 		65685E972C7F0C2F007E6246 /* Coding Challange */ = {
 			isa = PBXGroup;
 			children = (
-				655D25502C884B8100999E75 /* W2 T4 */,
+				656AE4662C8996B200F38679 /* W2 T4 */,
+				655D25502C884B8100999E75 /* W2 T3 */,
 				656BFA7E2C85B56F000B6184 /* W2T1 */,
 				656E147E2C86EE6C0055CB7A /* W2 T2 */,
 				65685E982C7F0C2F007E6246 /* Coding_ChallangeApp.swift */,
@@ -135,6 +140,15 @@
 				65685E9F2C7F0C31007E6246 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		656AE4662C8996B200F38679 /* W2 T4 */ = {
+			isa = PBXGroup;
+			children = (
+				656AE4672C8996DE00F38679 /* Slider,Steper,SecureField.swift */,
+				656AE4692C899C9700F38679 /* CustomStepperView.swift */,
+			);
+			path = "W2 T4";
 			sourceTree = "<group>";
 		};
 		656BFA7E2C85B56F000B6184 /* W2T1 */ = {
@@ -291,12 +305,14 @@
 				655D25522C884B9800999E75 /* TaskPicker.swift in Sources */,
 				65685EC32C7F0D66007E6246 /* BookView.swift in Sources */,
 				656E14842C86F81C0055CB7A /* Contact.swift in Sources */,
+				656AE46A2C899C9700F38679 /* CustomStepperView.swift in Sources */,
 				655D25542C88550C00999E75 /* UnitPicker.swift in Sources */,
 				656E14822C86F49A0055CB7A /* ContactView.swift in Sources */,
 				65685E9B2C7F0C2F007E6246 /* ContentView.swift in Sources */,
 				656E14862C86FDE00055CB7A /* TestView.swift in Sources */,
 				656BFA802C85B5B7000B6184 /* ContentView2.swift in Sources */,
 				656BFA7D2C85A08A000B6184 /* Coding 2.1.swift in Sources */,
+				656AE4682C8996DE00F38679 /* Slider,Steper,SecureField.swift in Sources */,
 				65685E992C7F0C2F007E6246 /* Coding_ChallangeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
