@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		655D25522C884B9800999E75 /* TaskPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D25512C884B9800999E75 /* TaskPicker.swift */; };
 		655D25542C88550C00999E75 /* UnitPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655D25532C88550C00999E75 /* UnitPicker.swift */; };
+		655E93AC2C917FDC00D02409 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E93AB2C917FDC00D02409 /* TabView.swift */; };
+		655E93AE2C91814200D02409 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E93AD2C91814200D02409 /* View1.swift */; };
+		655E93B02C91815500D02409 /* View2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E93AF2C91815500D02409 /* View2.swift */; };
 		65685E992C7F0C2F007E6246 /* Coding_ChallangeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685E982C7F0C2F007E6246 /* Coding_ChallangeApp.swift */; };
 		65685E9B2C7F0C2F007E6246 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65685E9A2C7F0C2F007E6246 /* ContentView.swift */; };
 		65685E9D2C7F0C31007E6246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65685E9C2C7F0C31007E6246 /* Assets.xcassets */; };
@@ -20,9 +23,11 @@
 		656AE46A2C899C9700F38679 /* CustomStepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AE4692C899C9700F38679 /* CustomStepperView.swift */; };
 		656BFA7D2C85A08A000B6184 /* Coding 2.1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BFA7C2C85A08A000B6184 /* Coding 2.1.swift */; };
 		656BFA802C85B5B7000B6184 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BFA7F2C85B5B7000B6184 /* ContentView2.swift */; };
+		656C0A592C8ED8480030D558 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656C0A582C8ED8480030D558 /* SwiftUIView.swift */; };
 		656E14822C86F49A0055CB7A /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E14812C86F49A0055CB7A /* ContactView.swift */; };
 		656E14842C86F81C0055CB7A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E14832C86F81C0055CB7A /* Contact.swift */; };
 		656E14862C86FDE00055CB7A /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656E14852C86FDE00055CB7A /* TestView.swift */; };
+		657630F92C902CFE00A75038 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657630F82C902CFE00A75038 /* SwiftUIView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,9 @@
 /* Begin PBXFileReference section */
 		655D25512C884B9800999E75 /* TaskPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPicker.swift; sourceTree = "<group>"; };
 		655D25532C88550C00999E75 /* UnitPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitPicker.swift; sourceTree = "<group>"; };
+		655E93AB2C917FDC00D02409 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		655E93AD2C91814200D02409 /* View1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
+		655E93AF2C91815500D02409 /* View2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View2.swift; sourceTree = "<group>"; };
 		65685E952C7F0C2F007E6246 /* Coding Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coding Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65685E982C7F0C2F007E6246 /* Coding_ChallangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding_ChallangeApp.swift; sourceTree = "<group>"; };
 		65685E9A2C7F0C2F007E6246 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,9 +67,11 @@
 		656AE4692C899C9700F38679 /* CustomStepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStepperView.swift; sourceTree = "<group>"; };
 		656BFA7C2C85A08A000B6184 /* Coding 2.1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Coding 2.1.swift"; sourceTree = "<group>"; };
 		656BFA7F2C85B5B7000B6184 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		656C0A582C8ED8480030D558 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		656E14812C86F49A0055CB7A /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		656E14832C86F81C0055CB7A /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		656E14852C86FDE00055CB7A /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		657630F82C902CFE00A75038 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +108,16 @@
 			path = "W2 T3";
 			sourceTree = "<group>";
 		};
+		655E93AA2C917F9000D02409 /* W3 T 3 TabView,Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				655E93AB2C917FDC00D02409 /* TabView.swift */,
+				655E93AD2C91814200D02409 /* View1.swift */,
+				655E93AF2C91815500D02409 /* View2.swift */,
+			);
+			path = "W3 T 3 TabView,Navigation";
+			sourceTree = "<group>";
+		};
 		65685E8C2C7F0C2F007E6246 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +139,9 @@
 		65685E972C7F0C2F007E6246 /* Coding Challange */ = {
 			isa = PBXGroup;
 			children = (
+				655E93AA2C917F9000D02409 /* W3 T 3 TabView,Navigation */,
+				657630F72C902CDA00A75038 /* W3 T2 */,
+				656C0A572C8ED82D0030D558 /* W3 T1 */,
 				656AE4662C8996B200F38679 /* W2 T4 */,
 				655D25502C884B8100999E75 /* W2 T3 */,
 				656BFA7E2C85B56F000B6184 /* W2T1 */,
@@ -160,6 +183,14 @@
 			path = W2T1;
 			sourceTree = "<group>";
 		};
+		656C0A572C8ED82D0030D558 /* W3 T1 */ = {
+			isa = PBXGroup;
+			children = (
+				656C0A582C8ED8480030D558 /* SwiftUIView.swift */,
+			);
+			path = "W3 T1";
+			sourceTree = "<group>";
+		};
 		656E147E2C86EE6C0055CB7A /* W2 T2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +199,14 @@
 				656E14832C86F81C0055CB7A /* Contact.swift */,
 			);
 			path = "W2 T2";
+			sourceTree = "<group>";
+		};
+		657630F72C902CDA00A75038 /* W3 T2 */ = {
+			isa = PBXGroup;
+			children = (
+				657630F82C902CFE00A75038 /* SwiftUIView2.swift */,
+			);
+			path = "W3 T2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,7 +341,10 @@
 			files = (
 				65685EC72C7F21F2007E6246 /* Books.swift in Sources */,
 				656A4D0B2C805EC000FD3345 /* Text.swift in Sources */,
+				657630F92C902CFE00A75038 /* SwiftUIView2.swift in Sources */,
 				655D25522C884B9800999E75 /* TaskPicker.swift in Sources */,
+				655E93B02C91815500D02409 /* View2.swift in Sources */,
+				655E93AE2C91814200D02409 /* View1.swift in Sources */,
 				65685EC32C7F0D66007E6246 /* BookView.swift in Sources */,
 				656E14842C86F81C0055CB7A /* Contact.swift in Sources */,
 				656AE46A2C899C9700F38679 /* CustomStepperView.swift in Sources */,
@@ -310,10 +352,12 @@
 				656E14822C86F49A0055CB7A /* ContactView.swift in Sources */,
 				65685E9B2C7F0C2F007E6246 /* ContentView.swift in Sources */,
 				656E14862C86FDE00055CB7A /* TestView.swift in Sources */,
+				655E93AC2C917FDC00D02409 /* TabView.swift in Sources */,
 				656BFA802C85B5B7000B6184 /* ContentView2.swift in Sources */,
 				656BFA7D2C85A08A000B6184 /* Coding 2.1.swift in Sources */,
 				656AE4682C8996DE00F38679 /* Slider,Steper,SecureField.swift in Sources */,
 				65685E992C7F0C2F007E6246 /* Coding_ChallangeApp.swift in Sources */,
+				656C0A592C8ED8480030D558 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
